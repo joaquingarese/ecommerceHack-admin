@@ -1,0 +1,26 @@
+#sidebarCont {
+  height: 100vh;
+  padding: 0;
+  background-color: #1f2937;
+  color: white;
+  padding-left: 1rem;
+  width: 300px;
+  position: fixed;
+}
+
+/* #sidebarCont .title {
+  height: 70px;
+  background-color: #111827;
+  color: white;
+  width: 105%;
+  margin-left: -15px;
+}
+
+#sidebarCont .title i {
+  margin-left: 1rem;
+}
+
+#sidebarCont .list-item {
+  height: 40px;
+  margin-left: 1rem;
+} */

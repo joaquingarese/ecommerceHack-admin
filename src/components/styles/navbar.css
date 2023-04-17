@@ -1,0 +1,43 @@
+#navbarTopCont {
+  height: 70px;
+  width: 100%;
+}
+
+#navbarTopCont .nav-img {
+  height: 30px;
+}
+
+#navbarTopCont .burger-btn {
+  border-color: grey;
+}
+
+#navbarTopCont .title {
+  height: 70px;
+  background-color: #111827;
+  color: white;
+  width: 105%;
+  margin-left: -15px;
+}
+
+#navbarTopCont .title i {
+  margin-left: 1rem;
+}
+
+#navbarTopCont .list-item {
+  height: 40px;
+  margin-left: 1rem;
+}
+
+#navbarTopCont .drop-down-menu-styles {
+  left: -40px;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse .navbar-text {
+    padding-right: 0rem;
+    left: 0px;
+  }
+  #navbarTopCont .drop-down-menu-styles {
+    left: 0px;
+  }
+}

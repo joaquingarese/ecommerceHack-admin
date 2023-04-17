@@ -1,0 +1,66 @@
+#productContainer {
+  width: 100%;
+  height: 100vh;
+
+}
+#productContainer .table-container {
+  border: 0.2px solid #d3d3d3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.stock-red {
+  color: red;
+}
+
+#productContainer .table tbody tr {
+  height: 40px;
+}
+#productContainer .editIcon {
+  color: rgb(79, 70, 229);
+}
+
+#productContainer .btnAdd {
+  background-color: rgb(79, 70, 229);
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#productContainer .tableGlobal {
+  background-color: white;
+}
+#productContainer .tableFirst {
+  background-color: rgb(249, 250, 251);
+}
+#productContainer .icon-warning {
+  width: 1rem;
+  height: 1rem;
+  display: inline;
+  margin-left: 0.25rem;
+  color: red;
+}
+
+#productContainer .table-styles th,
+#productContainer .table-styles td {
+  border: none;
+}
+
+#productContainer .edit-td {
+  color: #4f45e4;
+  font-weight: bold;
+  padding-right: 15px;
+  text-align: right;
+}
+
+#productContainer .edit-td button {
+  border: none;
+  background: transparent;
+  color: #4f45e4;
+  font-weight: bold;
+}
+
+@media (max-width:720px) {
+  #productContainer .stockHidden{
+    display: none;
+  }
+}

@@ -1,0 +1,72 @@
+#ordersContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+#ordersContainer .table-container {
+  border: 0.2px solid #d3d3d3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#ordersContainer .table-styles {
+  width: 100%;
+  margin: auto;
+}
+
+#ordersContainer .principal-tr {
+  background-color: #f9fafb;
+}
+
+#ordersContainer .edit-td {
+  color: #4f45e4;
+  font-weight: bold;
+  padding-right: 15px;
+  text-align: right;
+}
+
+#ordersContainer .edit-td button {
+  border: none;
+  background: transparent;
+  color: #4f45e4;
+  font-weight: bold;
+}
+
+#ordersContainer .table-styles tbody tr {
+  height: 50px;
+}
+
+/* #ordersContainer .table-styles th:nth-child(1) {
+  width: 30%;
+}
+
+#ordersContainer .table-styles th:nth-child(2) {
+  width: 30%;
+}
+
+#ordersContainer .table-styles th:nth-child(3) {
+  width: 13%;
+}
+
+#ordersContainer .table-styles th:nth-child(4) {
+  width: 13%;
+}
+
+#ordersContainer .table-styles th:nth-child(5) {
+  width: 16%;
+} */
+
+#ordersContainer .table-styles th,
+#ordersContainer .table-styles td {
+  border: none;
+}
+
+#ordersContainer .table-styles th:first-child,
+#ordersContainer .table-styles td:first-child {
+  border-left: none;
+}
+
+#ordersContainer .table-styles th:last-child,
+#ordersContainer .table-styles td:last-child {
+  border-right: none;
+}

@@ -1,0 +1,51 @@
+#usersContainer {
+   width: 100%; 
+   height: 100vh; 
+  background-color: #f3f4f6;
+}
+#usersContainer .table-container {
+  border: 0.2px solid #d3d3d3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#usersContainer .principal-tr {
+  background-color: #f9fafb;
+}
+
+#usersContainer .table-styles th,
+#usersContainer .table-styles td {
+  border: none;
+}
+
+.add-button {
+  background-color: rgb(79 70 229);
+  border-color: transparent;
+  color: white;
+}
+
+.add-button:hover {
+  background-color: rgb(58, 49, 228);
+  border-color: transparent;
+  color: white;
+}
+
+#usersContainer .edit-td {
+  color: #4f45e4;
+  font-weight: bold;
+  padding-right: 15px;
+
+}
+
+#usersContainer .edit-td button {
+  border: none;
+  background: transparent;
+  color: #4f45e4;
+  font-weight: bold;
+}
+
+@media (max-width:770px) {
+  #usersContainer .hideCol{
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+  }
+  
+body{
+    background-color: rgb(243,244,246) ;
+}
+
+#newProduct .icon{
+    
+    width: 50px;
+    display: inline;
+    margin-left: 0.25rem;
+    color :rgb(209 213 219)
+}
+
+
+#newProduct .btnSend{
+    background-color:rgb(79,70,229);
+    color: white;
+}
+

@@ -1,0 +1,9 @@
+#editarOrdenContainer {
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+
+#editarOrdenContainer .btnSend {
+  background-color: rgb(79, 70, 229);
+  color: white;
+}

@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #3d3d3b;
+  --secondary-color: #a89c8b;
+  --background-color: #f6f6f6;
+}
+
+#loginContainer .secondary-color {
+  color: var(--secondary-color);
+}
+
+#loginContainer .secondary-color-bg {
+  background-color: var(--secondary-color);
+}
+
+#loginContainer .login-container {
+  margin-top: 13%;
+}
+
+#loginContainer .form-container {
+  height: 33%;
+  background-color: white;
+  padding: 2.5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#loginContainer .label-text {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 576px) {
+  #loginContainer .form-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
