@@ -51,7 +51,7 @@ function SideBar() {
       </Link>
       <hr />
       <a
-        href="https://coffeehack.vercel.app/"
+        href="https://coffeehack-ecommerce.vercel.app/"
         className="text-decoration-none text-white"
       >
         <div className="list-item d-flex align-items-center ms-3 mb-2">
