@@ -57,9 +57,11 @@ function Users() {
                       <td>{user.lastname}</td>
                       <td>{user.email}</td>
                       <td className="edit-td">
-                        <Link to={`/editar-usuario/${user.id}`}>
-                          <button>Editar</button>
-                        </Link>
+                        {user.firstname !== "Alan" && (
+                          <Link to={`/editar-usuario/${user.id}`}>
+                            <button>Editar</button>
+                          </Link>
+                        )}
                       </td>
                     </tr>
                   );
